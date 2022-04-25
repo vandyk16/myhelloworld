@@ -20,7 +20,7 @@ pipeline {
           steps {
               //script
               echo 'Test'
-              sh mvn test
+              sh 'mvn test'
             }  
         }
     }
